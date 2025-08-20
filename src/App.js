@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import ExpandablePanel from './ExpandablePanel.js';
@@ -71,7 +70,7 @@ function App() {
 
       <main>
         <section className="hero">
-          <img src="/BlueFuturisticBackground.svg" alt="Hero" className="hero-image"  />
+          <img src="/BlueFuturisticBackground2.svg" alt="Hero" className="hero-image"  />
   
           </section>
 
