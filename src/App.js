@@ -78,19 +78,27 @@ function App() {
   <div className="circle-row">
     <div className="circle-item">
       <div className="circle-img">
-        <img src="/legal.png" alt="Lawyers" />
+        <img src="/legal.png" alt="Businesses" />
       </div>
-       <div className="l-connector-verticallaw"></div>
-      <span className="circle-label">Lawyers</span>
+     
+      <span className="circle-label">Businesses</span>
        <a href="https://link-to-signup" target="_blank" rel="noopener noreferrer">
      </a>
     </div>
     <div className="circle-connector"></div>  
+     <div className="circle-item">
+      <div className="circle-img">
+        <img src="/advisor64.png" alt="Lawyers" />
+      </div>
+      
+      <span className="circle-label">Lawyers</span>
+    </div>
+    <div className="circle-connector"></div>
     <div className="circle-item">
       <div className="circle-img">
         <img src="/advisor64.png" alt="Advisors" />
       </div>
-      <div className="l-connector-verticaladv"></div>
+     
       <span className="circle-label">Advisors</span>
     </div>
     <div className="circle-connector"></div>
@@ -98,7 +106,7 @@ function App() {
       <div className="circle-img">
         <img src="/investment.png" alt="Investors" />
       </div>
-      <div className="l-connector-verticalinv"></div>
+      
       <span className="circle-label">Investors</span>
      
     </div>
@@ -107,25 +115,11 @@ function App() {
       <div className="circle-img">
         <img src="/buyer.png" alt="Buyers" />
       </div>
-      <div className="l-connector-verticalbuy"></div>
+      
       <span className="circle-label">Buyers</span>
     </div>  
   </div>
 </section>
-
-<section className="single-circle-arrow">
-  <span className="circle-label2">Businesses</span>
-  <a href="https://your-link-here.com" target="_blank" rel="noopener noreferrer">
-  <div className="circle-img">
-    <img src="/company50.png" alt="Businesses and Franchises" />
-  </div>
-  </a>
-  <div className="horizontal-line"></div>
-    <span className="arrow-head">→</span>
-
- 
-</section>
-
          <section className="gradientbackground">
 
          
