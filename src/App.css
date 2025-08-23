@@ -11,7 +11,8 @@ html, body {
 }
 
 .App {
-  text-align: center;
+  text-align: center
+;
 }
 
 .App-logo {
@@ -72,18 +73,19 @@ html, body {
   height: 80px; /* Allow height to adjust based on content */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   font-size: 18px;  
-  color: #676262;
+  color: #060000;
   text-align: left; /* Ensure text aligns properly */
   position: relative; /* Enable positioning for the button */
   margin: 220px auto;
-  margin-top: 100px; /* Adjust margin to position the text box */
+  margin-top: 150px; /* Adjust margin to position the text box */
+  
 }
   .textbox p {
     font-size: 16px; /* Adjust font size as needed */
     color: #676262; /* Set text color to gray */
     line-height: 1.0; /* Improve readability with line height */
     padding: 0px; /* Add padding for better spacing */
-    margin-top: -110px; /* Add spacing above the text */
+    margin-top: -130px; /* Add spacing above the text */
   }
   
 
@@ -245,9 +247,10 @@ nav {
   font-weight: bold;
   max-width: 800px; /* Limit the width of the section */
   margin: 10px auto; /* Center the section and add spacing */
-  margin-top: 80px; 
+  margin-top: 20px; 
   padding: 5px;
-  padding-bottom: 130px;
+  margin-bottom: 30px;
+  /*position: relative; 
   /**margin-top: -110px;
   padding: 10px; */
 }
@@ -272,7 +275,10 @@ nav {
 
 .keyfeatures p {
   color: #1c3762; /* Set text color to grey */
+  position: relative; 
+
 }
+
 
 .feature-boxes {
   display: flex;
@@ -612,7 +618,7 @@ background: radial-gradient(circle,rgba(7, 64, 87, 1) 8%, rgba(108, 218, 235, 1)
   /**max-width: 100%; /* Limit the width of the box */
   padding: 2 2px; /* Add padding for better spacing */
   /** padding: 20px; /* Padding inside the box */
-  margin: 20px auto; /* Center the box horizontally */
+  margin: 40px auto; /* Center the box horizontally */
   height: 600px; /* Set a fixed height for the box */
   /**max-width: 100%; /* Ensure the box does not exceed the container width */
   text-align: left; /* Center-align the text */
@@ -662,7 +668,7 @@ background: radial-gradient(circle,rgba(7, 64, 87, 1) 8%, rgba(108, 218, 235, 1)
   border-radius: 15px; /* Rounded edges */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   margin: 10px auto; /* Center the section horizontally */
-  margin-right: 250px;
+  margin-right: 100px;
   padding: 5px; /* Add padding inside the box */
   text-align: center; /* Center-align the text */
   text-indent: -60%;
@@ -1052,7 +1058,7 @@ background: radial-gradient(circle,rgba(7, 64, 87, 1) 8%, rgba(108, 218, 235, 1)
   width: 100%;
   display: flex;
   justify-content: right;
-  margin: 104px 64px 26px -180px;
+  margin: 40px 72px 32px -190px;
 }
 
 .circle-row {
@@ -1069,7 +1075,7 @@ background: radial-gradient(circle,rgba(7, 64, 87, 1) 8%, rgba(108, 218, 235, 1)
 }
 
 .circle-img {
-  width: 70px;
+  width: 73px;
   height: 70px;
   border-radius: 50%;
   background: #fff;
@@ -1082,7 +1088,7 @@ background: radial-gradient(circle,rgba(7, 64, 87, 1) 8%, rgba(108, 218, 235, 1)
 }
 
 .circle-img img {
-  width: 60%;
+  width: 63%;
   height: 60%;
   object-fit: contain;
 }
@@ -1113,13 +1119,13 @@ background: radial-gradient(circle,rgba(7, 64, 87, 1) 8%, rgba(108, 218, 235, 1)
 .circle-connector {
   width: 70px;
   height: 5px;
-  border-top: 4px dotted #fff;
-  margin: 10 5px;
+  border-top: 5px dotted #fff;
+  margin: 0;
   margin-bottom: -40px;
-  margin-left: 10px;
+  position: relative;
 
 }
-
+/*
 .single-circle-arrow {
   display: flex;
   align-items: center;
@@ -1251,3 +1257,15 @@ background: radial-gradient(circle,rgba(7, 64, 87, 1) 8%, rgba(108, 218, 235, 1)
   border-left: 4px dotted #fff;
   z-index: 1; 
 }
+/*This section creates a timeline with circles representing different stakeholders in the IP valuation process.
+<section className="single-circle-arrow">
+  <span className="circle-label2">Businesses</span>
+  <a href="https://your-link-here.com" target="_blank" rel="noopener noreferrer">
+  <div className="circle-img">
+    <img src="/company50.png" alt="Businesses and Franchises" />
+  </div>
+  </a>
+  <div className="horizontal-line"></div>
+    <span className="arrow-head">→</span>
+    </section>
+*/

@@ -70,7 +70,7 @@ function App() {
 
       <main>
         <section className="hero">
-          <img src="/BlueFuturisticBackground2.svg" alt="Hero" className="hero-image"  />
+          <img src="/BlueFuturisticBusiness700.svg" alt="Hero" className="hero-image"  />
   
           </section>
 
@@ -142,7 +142,7 @@ function App() {
        </section>
           </section>
         <section className="keyfeatures">
-          <p style={{ fontSize: "24px", marginTop: "60px", fontWeight: "bold"}}>Key Platform Features</p>
+          <p style={{ fontSize: "32px",fontWeight: "bold"}}>Key Platform Features</p>
           <p>Our AI Powered tools help you fundraise faster and more efficiently</p>
           <section className="feature-boxes">
   <div className="featurebox">
